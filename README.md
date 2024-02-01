@@ -2,9 +2,6 @@
 
 This project was bootstrapped with [Next-Nest-App](https://github.com/Ziance/Next-Nest-Demo/tree/develop).
 
-
-### `App structure`
-
 **Note: this is repository contains frontend with NextJs and backend with NestJs with pnpm and MySQL type ORM, you can't go back!**
 
 ## To Running the app
