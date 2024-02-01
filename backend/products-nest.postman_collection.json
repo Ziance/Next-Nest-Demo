@@ -1,0 +1,321 @@
+{
+	"info": {
+		"_postman_id": "f857cbbd-8523-4732-b88a-940e8ed86902",
+		"name": "products-nest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29342011",
+		"_collection_link": "https://bold-robot-173048.postman.co/workspace/plastodeal-api~9c0e5690-b217-4c00-b091-3bdc2458fd9e/collection/29342011-f857cbbd-8523-4732-b88a-940e8ed86902?action=share&source=collection_link&creator=29342011"
+	},
+	"item": [
+		{
+			"name": "get locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/apis/locations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add location",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"locationName\": \"Location21\",\r\n    \"locationDescription\": \"location description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/locations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit location",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"locationName\": \"Location12\",\r\n    \"locationDescription\": \"location description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/locations/390bf23d-c6e1-42a8-90a6-1055572917a8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"locations",
+						"390bf23d-c6e1-42a8-90a6-1055572917a8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete location",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/apis/locations/b79108a4-34d9-4428-acf2-c81166fa6e56",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"locations",
+						"b79108a4-34d9-4428-acf2-c81166fa6e56"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/apis/category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"category1w11\",\r\n    \"categoryDescription\": \"category description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit category",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\": \"category1\",\r\n    \"categoryDescription\": \"category description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/category/bd544c3e-5fc7-419f-ad62-ce937ba48c25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"category",
+						"bd544c3e-5fc7-419f-ad62-ce937ba48c25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/apis/category/bd544c3e-5fc7-419f-ad62-ce937ba48c25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"category",
+						"bd544c3e-5fc7-419f-ad62-ce937ba48c25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/apis/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"locationIds\": [\r\n        \"84c872c0-d5a5-48c3-b888-123675d781f4\"\r\n    ],\r\n    \"categoryIds\": [\r\n        \"be284283-cfa8-4c3c-8415-588ec1bf58c0\"\r\n    ],\r\n    \"productName\": \"productName1\",\r\n    \"price\": \"10.00\",\r\n    \"stockQuantity\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/ZT-4/Pictures/Screenshots/Screenshot 2023-12-19 112655.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/products/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"products",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit products",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"locationIds\": [\r\n        \"48a2ee14-2ce3-4631-898e-3e6ae7748575\"\r\n    ],\r\n    \"categoryIds\": [\r\n        \"24ab981d-52bb-4c6d-a2ea-3047b17192b5\"\r\n    ],\r\n    \"productName\": \"productName1\",\r\n    \"price\": \"10.00\",\r\n    \"stockQuantity\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/apis/products/f82268b9-60db-49cb-8415-d2627e8c3dd0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"apis",
+						"products",
+						"f82268b9-60db-49cb-8415-d2627e8c3dd0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
