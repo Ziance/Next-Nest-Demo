@@ -1,6 +1,6 @@
 # Getting Started with Next-Nest Stack Demo
 
-This project was bootstrapped with [Create Next-Nest-App](https://github.com/Ziance/Next-Nest-Demo/tree/develop).
+This project was bootstrapped with [Next-Nest-App](https://github.com/Ziance/Next-Nest-Demo/tree/develop).
 
 
 ### `App structure`
@@ -22,5 +22,4 @@ $ cd backend
 ```
 ├── backend/                                # backend server
 ├── frontend/                               # frontend server
-└── package.json
 ```
