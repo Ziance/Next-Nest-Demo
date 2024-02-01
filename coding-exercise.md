@@ -19,9 +19,9 @@ using @nestjs/passport that integrates but in current system we can't use that.
 
 ## Which API/Framework would you use to put access control/authorization?
 
-JSON Web Tokens (JWT)
-Role-Based Access Control (RBAC)
-Auth0
+JSON Web Tokens (JWT),
+Role-Based Access Control (RBAC),
+Auth0,
 Firebase Authentication
 
 
